@@ -1,0 +1,30 @@
+{
+  "name": "pongtan/fake-laravel",
+  "description": "Faker Laravel Application",
+  "keywords": [
+    "Laravel",
+    "App"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "orvice",
+      "email": "pongtan@orx.me"
+    }
+  ],
+  "require": {
+    "illuminate/contracts": "^5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "files": [
+    ],
+    "psr-4": {
+      "Pongtan\\FakeLaravel\\": "src"
+    }
+  }
+}
