@@ -6,10 +6,24 @@ namespace Pongtan\FakeLaravel;
 
 use Illuminate\Contracts\Foundation\Application as LaravelApp;
 
-class Application implements LAravelApp, \ArrayAccess
+class Application implements LaravelApp, \ArrayAccess
 {
 
+    public function get($id)
+    {
+    }
 
+    public function has($id)
+    {
+    }
+
+    public function getCachedPackagesPath()
+    {
+    }
+
+    public function runningInConsole()
+    {
+    }
 
     public function offsetExists($offset)
     {
@@ -152,10 +166,12 @@ class Application implements LAravelApp, \ArrayAccess
      * Resolve the given type from the container.
      *
      * @param  string $abstract
+     * @param  array $parameters
      * @return mixed
      */
-    public function make($abstract)
+    public function make($abstract, array $parameters = [])
     {
+
     }
 
     /**
