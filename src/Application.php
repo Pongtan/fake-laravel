@@ -323,4 +323,13 @@ class Application implements LaravelApp, \ArrayAccess
     public function getCachedServicesPath()
     {
     }
+
+    /**
+     * Determine if the application is running unit tests.
+     *
+     * @return bool
+     */
+    public function runningUnitTests()
+    {
+    }
 }
